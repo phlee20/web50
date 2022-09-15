@@ -6,6 +6,10 @@ img {
     width: 250px;
 }
 
+#logo-sm {
+    width: 75px;
+}
+
 .nav-link {
     color: black;
     font-size: 14px;
