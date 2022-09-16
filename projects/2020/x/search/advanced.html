@@ -8,25 +8,51 @@
     </head>
     <body>
         <div>
-            <ul class="nav d-flex">
+            <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">
                         <img id="logo-sm" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
                     </a>
                 </li>
                 <li class="nav-item ms-auto">
-                    <a class="nav-link" href="index.html">Google Search</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="image.html">Image Search</a>
+                    <a class="nav-link" href="index.html">Back to Google Search</a>
                 </li>
             </ul>
         </div>
-        <div class="mid-block">
-            <form action="https://www.google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Advanced Search">
-            </form>
+        <div>
+            <h5>Advanced Search</h5>
+            <hr>
         </div>
+        <form action="https://www.google.com/search">
+            <div class="grid-container">
+                <div class="grid-item">Find pages with...</div>
+                <div class="grid-item"></div>
+                <div class="grid-item subtitle">To do this in the search box.</div>
+                <div class="grid-item subtitle">all these words:</div>
+                <div class="grid-item">
+                    <input type="text" class="adv-input" name="as_epq">
+                </div>
+                <div class="grid-item desc">Type the important words: tri-colour rat terrier</div>
+                <div class="grid-item subtitle">this exact word or phrase:</div>
+                <div class="grid-item">
+                    <input type="text" class="adv-input" name="as_q">
+                </div>
+                <div class="grid-item desc">Put exact words in quotes: "rat terrier"</div>
+                <div class="grid-item subtitle">any of these words:</div>
+                <div class="grid-item">
+                    <input type="text" class="adv-input" name="as_oq">
+                </div>
+                <div class="grid-item desc">Type OR between all the words you want: miniature OR standard</div>
+                <div class="grid-item subtitle">none of these words:</div>
+                <div class="grid-item">
+                    <input type="text" class="adv-input" name="as_eq">
+                </div>
+                <div class="grid-item desc">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+                <div class="grid-item"></div>
+                <div class="grid-item submit">
+                    <input type="submit" class="adv-submit" value="Advanced Search">
+                </div>
+            </div>
+        </form>
     </body>
 </html>
